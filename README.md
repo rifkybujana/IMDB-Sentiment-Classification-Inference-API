@@ -1,7 +1,5 @@
-# Submission 1: IMDB Sentiment Classification
+# IMDB Sentiment Classification
 Nama: Rifky Bujana Bisri
-
-Username dicoding: rifkybujana
 
 | | Deskripsi |
 | ----------- | ----------- |
