@@ -1,0 +1,57 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "sentiment"
+      }
+    ],
+    "slicingSpecs": [
+      {},
+      {
+        "featureKeys": [
+          "r",
+          "e",
+          "v",
+          "i",
+          "e",
+          "w"
+        ]
+      }
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "AUC"
+          },
+          {
+            "className": "Precision"
+          },
+          {
+            "className": "Recall"
+          },
+          {
+            "className": "ExampleCount"
+          },
+          {
+            "className": "BinaryAccuracy",
+            "threshold": {
+              "valueThreshold": {
+                "lowerBound": 0.5
+              }
+            }
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.41.1",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "C:\\Users\\rifky\\Documents\\imdb_sentiment_classification\\pipelines\\rifkybujana-pipeline\\Trainer\\model\\16\\Format-Serving"
+  }
+}
